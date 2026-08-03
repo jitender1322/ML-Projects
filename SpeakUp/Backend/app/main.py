@@ -1,10 +1,21 @@
-from fastapi import FastAPI
+from fastapi import FastAPI # type: ignore
 from app.routes.speech_routes import router as speech_router
+from fastapi.middleware.cors import CORSMiddleware # type: ignore
 
 app = FastAPI(
     title="FluentFlow AI",
     description="AI English Speaking & Grammar Correction API",
     version="1.0.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.get("/")
