@@ -1,9 +1,25 @@
 import cv2
 from ultralytics import YOLO
-import pyttsx3
+import asyncio
+import edge_tts
+from playsound3 import playsound
+import threading
 
 model = YOLO("yolo26n.pt")
-engine = pyttsx3.init()
+
+async def generate_speech(text):
+    communicate = edge_tts.Communicate(
+        text,
+        "en-US-AriaNeural"
+    )
+
+    await communicate.save("alert.mp3")
+
+
+def speak(text):
+    asyncio.run(generate_speech(text))
+    playsound("alert.mp3")
+
 
 cap = cv2.VideoCapture(0)
 
@@ -12,7 +28,7 @@ roi_y1 = 100
 roi_x2 = 490
 roi_y2 = 400
 
-alert_triggered = False
+previous_inside = {}
 
 while True:
     ret,frame = cap.read()
@@ -66,20 +82,28 @@ while True:
             person_inside = True
             person_status = "DANGER"
         else:
-            person_status="Safe"
+            person_status="SAFE"
+
+        was_inside = previous_inside.get(track_id,False)
+
+        print(
+            f"ID: {track_id} | "
+            f"Center: ({center_x}, {center_y}) | "
+            f"Inside: {inside_roi} | "
+            f"Previous: {was_inside}"
+        )
+
+        if inside_roi and not was_inside:
+            print(f"ALERT TRIGGERED for ID {track_id}")
+            threading.Thread(
+                target=speak,
+                args=(f"Person ID {track_id} is in the danger zone",),
+                daemon=True
+                ).start()
+
+        previous_inside[track_id] = inside_roi
 
         label = f"ID {track_id}: {person_status}"
-
-        if person_status == "DANGER" and not alert_triggered:
-            print("Alert: Person ID", track_id, "is in danger zone")
-
-            engine.say(
-                f"Person ID {track_id} is in the danger zone"
-            )
-
-            engine.runAndWait()
-
-            alert_triggered = True
 
         cv2.circle(
             annotated_frame,
@@ -88,15 +112,22 @@ while True:
             (0, 0, 255),
             -1
         )
+        cv2.putText(
+            annotated_frame,
+            label,
+            (x1, y1 - 30),
+            cv2.FONT_HERSHEY_SIMPLEX,
+            0.6,
+            (0, 255, 0),
+            2
+        )
+        
 
     if person_detected:
         if person_inside:
             status = "DANGER"
         else:
             status = "SAFE"
-
-    if person_detected and not person_inside:
-        alert_triggered = False
 
     cv2.putText(
         annotated_frame,
@@ -107,18 +138,6 @@ while True:
         (0, 255, 0),
         2
     )
-
-    cv2.putText(
-        annotated_frame,
-        label,
-        (x1, y1 - 30),
-        cv2.FONT_HERSHEY_SIMPLEX,
-        0.6,
-        (0, 255, 0),
-        2
-    )
-
-    # print("Person Id",track_id,status)
 
     cv2.imshow("webcam",annotated_frame)
 

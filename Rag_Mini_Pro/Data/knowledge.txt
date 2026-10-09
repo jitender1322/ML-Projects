@@ -1,0 +1,251 @@
+NEURALPATH AI INSTITUTE - INSTITUTE POLICY
+==========================================
+A fictional policy document.
+Effective date: 1 January 2027 | Version 1.0
+Issued by: Office of the Academic Director
+
+
+1. PURPOSE AND SCOPE
+--------------------
+This policy sets out the rules and expectations for all students enrolled at
+NeuralPath AI Institute ("the Institute"). By enrolling, every student agrees
+to follow the policies below. The Institute may update this policy with 14
+days' written notice.
+
+
+2. COURSES
+----------
+The Institute offers the following programs:
+
+  Course                              Duration   Mode                 Level
+  ----------------------------------  ---------  -------------------  ------------
+  AI Foundations                      8 weeks    Classroom / Online   Beginner
+  Python for Data & AI                10 weeks   Classroom / Online   Beginner
+  Machine Learning Practitioner       16 weeks   Classroom / Hybrid   Intermediate
+  Deep Learning & Neural Networks     16 weeks   Classroom / Hybrid   Intermediate
+  Generative AI & Prompt Engineering  12 weeks   Online               Intermediate
+  Advanced AI Engineer Program        28 weeks   Hybrid               Advanced
+
+2.1 Eligibility. Beginner courses are open to anyone aged 16 or above.
+    Intermediate courses require completion of Python for Data & AI or a basic
+    programming assessment. The Advanced AI Engineer Program requires
+    completion of Machine Learning Practitioner or equivalent experience,
+    verified by interview.
+
+2.2 Batch size. Each batch is limited to 30 students to ensure personal
+    attention.
+
+2.3 Course changes. Curriculum content may be updated to reflect industry
+    developments. Students will be notified of significant changes at least
+    one week in advance.
+
+
+3. FEES
+-------
+  Course                              Total Fee (INR)
+  ----------------------------------  ---------------
+  AI Foundations                      18,000
+  Python for Data & AI                22,000
+  Machine Learning Practitioner       55,000
+  Deep Learning & Neural Networks     60,000
+  Generative AI & Prompt Engineering  45,000
+  Advanced AI Engineer Program        1,20,000
+
+3.1 Payment options. Fees may be paid in full at enrollment (a 5%
+    early-payment discount applies) or in up to three installments: 50% at
+    enrollment, 25% at the end of the first third of the course, and 25% at
+    the end of the second third.
+
+3.2 Late payment. Installments overdue by more than 7 days attract a late fee
+    of Rs. 500. Access to the learning portal may be suspended if payment is
+    more than 15 days overdue.
+
+3.3 Refunds.
+    - Cancellation within 3 days of enrollment: full refund, less a Rs. 1,000
+      registration charge.
+    - Cancellation before the second week ends: 50% refund.
+    - No refunds after the second week, except in cases of documented medical
+      emergency, which the Director will review individually.
+
+3.4 Discounts. A 10% merit scholarship is available to students scoring above
+    90% in the entrance assessment. Group enrollments of three or more receive
+    a 7% discount per student. Discounts cannot be combined.
+
+3.5 Not included. Fees do not cover personal laptops, optional cloud credits
+    beyond the allotted quota, or re-examination fees.
+
+
+4. TIMINGS
+----------
+4.1 Regular batches
+
+  Batch    Days                Time
+  -------  ------------------  ---------------------------------------------
+  Morning  Monday - Friday     9:00 AM - 12:00 PM
+  Evening  Monday - Friday     6:00 PM - 9:00 PM
+  Weekend  Saturday & Sunday   10:00 AM - 4:00 PM (45-minute lunch break)
+
+4.2 Lab and doubt-clearing hours. The AI lab is open Monday to Saturday,
+    8:00 AM to 8:00 PM. Faculty hold doubt-clearing sessions every weekday
+    from 12:30 PM to 1:30 PM.
+
+4.3 Punctuality. Students arriving more than 15 minutes after the start of a
+    session will be marked late. Three late arrivals count as one absence.
+
+4.4 Holidays. The Institute follows the Gujarat state public holiday
+    calendar. Missed sessions due to Institute closure will be rescheduled
+    and announced in advance.
+
+4.5 Batch changes. A student may request a batch change once per course,
+    subject to seat availability and approval by the Academic Coordinator.
+
+
+5. ATTENDANCE
+-------------
+5.1 Minimum requirement. Students must maintain at least 80% attendance in
+    each course to be eligible for the final assessment and certificate.
+
+5.2 Recording. Attendance is recorded at the start of each session through
+    the Institute's biometric system (classroom) or login tracking (online).
+    Online students must keep their cameras on for at least 75% of each
+    session.
+
+5.3 Warnings.
+    - Below 85%: a reminder email is sent.
+    - Below 80%: a formal warning is issued and a meeting with the Academic
+      Coordinator is required.
+    - Below 70%: the student may be barred from the final assessment.
+
+5.4 Condonation. Attendance shortfalls of up to 5% may be condoned once per
+    course with valid supporting documentation and the Director's approval,
+    in exchange for completing additional assignments.
+
+5.5 Make-up sessions. Recorded lectures are available for online and hybrid
+    students for 30 days. Recorded sessions do not count toward attendance
+    unless the absence was approved under the leave policy.
+
+
+6. LEAVE
+--------
+6.1 Types of leave
+
+  Leave Type                  Allowance                Documentation
+  --------------------------  -----------------------  ------------------------------------
+  Casual leave                Up to 3 days per course  Prior email to coordinator
+  Medical leave               Up to 10 days per course Medical certificate if over 2 days
+  Emergency leave             Up to 5 days per course  Written explanation within 3 days
+  Internship/placement leave  As approved               Offer letter or interview call letter
+
+6.2 Applying for leave. Leave requests should be submitted through the
+    student portal at least 48 hours in advance, except in emergencies.
+
+6.3 Approved leave and attendance. Approved leave days are excluded from the
+    attendance calculation but do not exempt the student from submitting
+    assignments or covering missed content.
+
+6.4 Extended leave. Absence of more than 15 consecutive days requires
+    approval from the Director. Students may be offered the option to defer
+    to the next batch (valid for up to six months, once only, with a
+    Rs. 2,000 administrative fee).
+
+6.5 Unauthorized absence. Absence of more than 7 consecutive days without
+    notice may result in the student's enrollment being cancelled with no
+    refund.
+
+
+7. PROJECTS
+-----------
+7.1 Overview. Projects are central to learning at the Institute. Every course
+    includes hands-on work, culminating in a capstone project.
+
+7.2 Project structure.
+    - Mini projects: Short individual assignments after each module
+      (30% of final grade).
+    - Mid-course project: Individual or pair project applying the core
+      concepts learned (20%).
+    - Capstone project: A substantial, end-to-end project solving a
+      real-world problem, completed individually or in teams of up to 4
+      (30%). Advanced AI Engineer students must also deploy their capstone
+      as a working application.
+    - Final assessment: Written and practical evaluation (20%).
+
+7.3 Mentorship. Each capstone team is assigned a faculty mentor and has
+    fortnightly review meetings.
+
+7.4 Academic integrity. All submitted work must be original. Use of AI coding
+    assistants and generative tools is permitted only where the assignment
+    explicitly allows it, and must always be disclosed. Plagiarism, copying
+    code without attribution, or fabricating results will lead to a zero for
+    that submission; repeated violations may lead to dismissal.
+
+7.5 Data and ethics. Students must use only legally obtained, appropriately
+    licensed datasets. Projects involving personal or sensitive data require
+    prior approval from the faculty mentor, and must follow responsible AI
+    principles including fairness, privacy, and transparency.
+
+7.6 Intellectual property. Students retain ownership of their capstone
+    projects. The Institute may showcase project summaries (without
+    confidential data) for educational and promotional purposes, unless the
+    student opts out in writing.
+
+7.7 Deadlines. Late submissions lose 10% of marks per day, up to a maximum of
+    5 days, after which the submission will not be accepted unless an
+    extension was approved in advance.
+
+
+8. CERTIFICATES
+---------------
+8.1 Eligibility. A certificate of completion is awarded to students who:
+    - Achieve at least 80% attendance;
+    - Score at least 50% overall (and at least 40% in each component);
+    - Submit all required projects, including the capstone; and
+    - Have cleared all outstanding fees.
+
+8.2 Grades
+
+  Overall Score   Grade
+  --------------  -------------
+  85% and above   Distinction
+  70% - 84%       Merit
+  50% - 69%       Pass
+  Below 50%       Not Awarded
+
+8.3 Format. Each certificate carries a unique ID and QR code that employers
+    can use to verify authenticity on the Institute's website. A digital copy
+    is issued within 10 working days of results; a printed copy is available
+    on request at Rs. 300.
+
+8.4 Participation certificate. Students who do not meet the full criteria but
+    attended at least 60% of sessions may receive a participation certificate
+    stating the modules attended.
+
+8.5 Re-assessment. Students who fail the final assessment may reappear once
+    within 60 days on payment of a Rs. 2,500 re-examination fee. Capstone
+    resubmission is allowed once with a 10% mark deduction.
+
+8.6 Revocation. The Institute reserves the right to revoke a certificate if
+    it was obtained through fraud, plagiarism, or misrepresentation.
+
+8.7 Duplicate certificates. Lost or damaged certificates may be reissued for
+    Rs. 500 upon written request.
+
+
+9. CODE OF CONDUCT
+------------------
+Students are expected to treat peers, staff, and faculty with respect, avoid
+disruptive behavior, and use Institute computing resources responsibly.
+Misuse of GPUs or cloud credits (for example, cryptocurrency mining),
+harassment, or damage to property may lead to suspension or dismissal.
+
+
+10. GRIEVANCES AND CONTACT
+--------------------------
+Students with concerns may raise them with the Academic Coordinator first,
+then escalate to the Director if unresolved within 7 working days.
+
+Fictional contact details:
+  Email:   support@neuralpath-institute.example
+  Phone:   +91 00000 00000
+  Address: 12 Innovation Park, Science City Road, Ahmedabad, Gujarat
+
+This document is entirely fictional and created for illustrative purposes.
