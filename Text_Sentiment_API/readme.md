@@ -62,10 +62,8 @@ The dataset is excluded from Git because of its size. Anyone reproducing this pr
 
 ### 1. Clone the repository
 
-Replace the placeholder with your repository URL.
-
 ```bash
-git clone <your-repository-url>
+git clone <repository-url>
 cd Text_Sentiment_API
 ```
 
